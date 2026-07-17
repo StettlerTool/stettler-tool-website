@@ -3,6 +3,7 @@ import Hero from "@/components/Hero";
 import Departments from "@/components/Departments";
 import WhyChooseUs from "@/components/WhyChooseUs";
 import InfoCards from "@/components/InfoCards";
+import FeaturedBrands from "@/components/FeaturedBrands";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <Header />
       <Hero />
       <Departments />
+      <FeaturedBrands />
       <WhyChooseUs />
       <InfoCards />
     </main>
