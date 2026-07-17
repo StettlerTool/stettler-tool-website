@@ -28,7 +28,7 @@ const departments = [
 
 export default function Departments() {
   return (
-    <section className="mx-auto max-w-7xl px-6 py-20">
+    <section id="departments" className="mx-auto max-w-7xl px-6 py-20">
       <h2 className="text-center text-4xl font-bold text-gray-900">
         What You'll Find In Store
       </h2>
